@@ -44,20 +44,13 @@
 <div class="container">
 
 <div class="person" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="gender" content="Male">
-    <meta itemprop="birthDate" content="September 12, 1989">
-    <meta itemprop="honorificPrefix" content="Dr">
-    <meta itemprop="honorificSuffix" content="PhD">
-    <meta itemprop="url" content="https://chaoxu.prof">
-<div class="row" style="display:block"><h1 id="site-title"><span itemprop="givenName">Chao</span> <span itemprop="familyName">Xu</span> <wbr>|<wbr> <ruby>
-<rb>许</rb><rp>(</rp><rt>xǔ</rt><rp>)</rp></ruby>
-<ruby><rb>超</rb><rp>(</rp><rt>chāo</rt><rp>)</rp></ruby>
+<div class="row" style="display:block"><h1 id="site-title"><span itemprop="givenName">Jane</span> <span itemprop="familyName">Doe</span>
 </h1></div>
 
 <div class="row">
   <div class="intro-left" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
     <meta itemprop="representativeOfPage" content="True">
-    <img width="270" height="270" src="https://chaoxu.prof/files/chao/chaoxu_current.jpg" style="border-radius:50%;max-width:95%" title="Lord Chao of the House Xu, the First of His Name, Guardian of the Art Gallery" alt="Photo of Chao Xu" itemprop="contentUrl"/>
+    <img width="270" height="270" src="profile.jpg" style="border-radius:50%;max-width:95%" itemprop="contentUrl"/>
   </div>
   <div class="intro-right">
     {{intro}}
@@ -80,13 +73,13 @@
       {% endif %}
 
       {% if 'd' in paper.show %}
-        <a href="files/papers/{{paper.id}}.pdf"><i class="material-icons">description</i></a>
+        <a href="papers/{{paper.id}}.pdf"><i class="material-icons">description</i></a>
       {% else %}
         <i class="material-icons disabled">description</i>
       {% endif %}
 
       {% if 'p' in paper.show %}
-        <a href="files/presentations/{{paper.id}}.pdf"><i class="material-icons">airplay</i></a>
+        <a href="presentations/{{paper.id}}.pdf"><i class="material-icons">airplay</i></a>
       {% else %}
         <i class="material-icons disabled">airplay</i>
       {% endif %}

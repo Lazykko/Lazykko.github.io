@@ -1,1 +1,1 @@
-A short bio of what you are doing. 
+A short bio of what you are doing. This is written in markdown, and supports $LaTeX$.
