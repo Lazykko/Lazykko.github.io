@@ -42,6 +42,7 @@ authors: [Jane Doe, John Doe]
 type: conference
 year: 2022
 pub: AWESOME
+presentationlink: https://example.com
 abstract: >
   This paper is fairly important.
 ---
@@ -52,5 +53,7 @@ authors: [Jane Doe]
 type: conference
 year: 2023
 pub: AWESOME
+paperlink: https://example.com
+presentationlink: https://example.com
 abstract: >
   This paper is even more important.

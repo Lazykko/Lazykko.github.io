@@ -73,13 +73,21 @@
       {% endif %}
 
       {% if 'd' in paper.show %}
-        <a href="papers/{{paper.id}}.pdf"><i class="material-icons">description</i></a>
+        {% if paper.paperlink %}
+          <a href="{{paper.paperlink}}"><i class="material-icons">description</i></a>
+        {% else %}
+          <a href="papers/{{paper.id}}.pdf"><i class="material-icons">description</i></a>
+        {% endif %}
       {% else %}
         <i class="material-icons disabled">description</i>
       {% endif %}
 
       {% if 'p' in paper.show %}
-        <a href="presentations/{{paper.id}}.pdf"><i class="material-icons">airplay</i></a>
+        {% if paper.presentationlink %}
+          <a href="{{paper.presentationlink}}"><i class="material-icons">airplay</i></a>
+        {% else %}
+          <a href="presentations/{{paper.id}}.pdf"><i class="material-icons">airplay</i></a>
+        {% endif %}
       {% else %}
         <i class="material-icons disabled">airplay</i>
       {% endif %}
