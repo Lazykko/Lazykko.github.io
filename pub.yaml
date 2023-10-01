@@ -1,18 +1,19 @@
 # the meta information
 ---
 venues:
-  SODA: ACM-SIAM Symposium on Discrete Algorithms
+  COCOON: ACM-SIAM Symposium on Discrete Algorithms
 
 people:
-  Jane Doe: https://example.com
-  John Doe: https://example.com
+  Chao Xu: https://chaoxu.prof
+  Jianbo Wang: https://wangchienbo.github.io
+  Xin Liu: http://lsec.cc.ac.cn/~liuxin/
 
 types:
-  conference: Conference Publications
   journal : Journal Publications
+  conference: Conference Publications
   manuscript: <span>Manuscripts<br /><span style="font-size:0.6em"><em>Some manuscripts are available upon request.</em></span></span> 
-  thesis: Thesis
-  
+#  thesis: Thesis
+
 # id: the unique identifier
 # title: title of the article
 # authors: a list of authors
@@ -30,30 +31,62 @@ types:
 # bib allow user to add extra information
 
 
+# journal publications
 
+---
+id: 1
+show: [d]
+title: Stochastic Gauss–Newton algorithms for online PCA
+authors: [Siyun Zhou, Xin Liu, Liwei Xu]
+type: journal
+year: 2023
+pub: Journal of Scientific Computing
+paperlink: https://link.springer.com/article/10.1007/s10915-023-02289-0
+---
+id: 2
+show: [d]
+title: Convergence analysis of Oja’s iteration for solving online PCA with nonzero-mean samples
+authors: [Siyun Zhou, Yanqin Bai, Liwei Xu]
+type: journal
+year: 2021
+pub: Science China Mathematics
+paperlink: https://link.springer.com/article/10.1007/s11425-018-9554-4
+---
+id: 3
+show: [d]
+title: Document classification via nonlinear metric learning
+authors: [Xin Li, Yanqin Bai, Siyun Zhou, Ying Li]
+type: journal
+year: 2018
+pub: Neural Processing Letters
+paperlink: https://link.springer.com/article/10.1007/s11063-017-9654-y
 
 # conference publications
 
 ---
-id: example
-show: [d,p]
-title: A very important paper
-authors: [Jane Doe, John Doe]
-type: conference
-year: 2022
-pub: AWESOME
-presentationlink: https://example.com
-abstract: >
-  This paper is fairly important.
----
-id: example2
-show: [d]
-title: An even more important paper
-authors: [Jane Doe]
+id: linear-system
+show: []
+title: Solving systems of linear equations through zero forcing sets
+authors: [Jianbo Wang, Chao Xu, Siyun Zhou]
 type: conference
 year: 2023
-pub: AWESOME
-paperlink: https://example.com
-presentationlink: https://example.com
-abstract: >
-  This paper is even more important.
+pub: COCOON
+bib: COCOON (to appear)
+
+---
+id: m1
+show: [d]
+title: Learning more discriminative local descriptors for few-shot learning 
+authors: [Qijun Song, Siyun Zhou, Liwei Xu]
+type: manuscript
+year: 2023
+bib: Submitted 2023
+paperlink: https://arxiv.org/pdf/2305.08721.pdf
+---
+id: m2
+show: []
+title: Streaming first-order optimization methods with momentum for dominant eigenspace estimation
+authors: [Siyun Zhou]
+type: manuscript
+year: 2023
+bib: Submitted 2023
