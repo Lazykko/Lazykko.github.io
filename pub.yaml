@@ -7,6 +7,7 @@ people:
   Chao Xu: https://chaoxu.prof
   Jianbo Wang: https://wangchienbo.github.io
   Xin Liu: http://lsec.cc.ac.cn/~liuxin/
+  Siyun Zhou: https://lazykko.github.io/
 
 types:
   journal : Journal Publications
@@ -46,7 +47,7 @@ paperlink: https://link.springer.com/article/10.1007/s10915-023-02289-0
 id: 2
 show: [d]
 title: Convergence analysis of Oja’s iteration for solving online PCA with nonzero-mean samples
-authors: [Siyun Zhou, Yanqin Bai, Liwei Xu]
+authors: [Siyun Zhou, Yanqin Bai]
 type: journal
 year: 2021
 pub: Science China Mathematics
@@ -71,7 +72,7 @@ authors: [Jianbo Wang, Chao Xu, Siyun Zhou]
 type: conference
 year: 2023
 pub: COCOON
-bib: COCOON (to appear)
+bib: COCOON 2023 (to appear)
 
 ---
 id: m1
