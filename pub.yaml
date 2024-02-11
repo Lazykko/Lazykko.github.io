@@ -63,7 +63,7 @@ pub: Neural Processing Letters
 paperlink: https://link.springer.com/article/10.1007/s11063-017-9654-y
 ---
 id: 4
-show: [d]
+show: []
 title: An orthonormalization-free and inversion-free algorithm for online estimation of principal eigenspace
 authors: [Siyun Zhou, Liwei Xu]
 type: journal
@@ -75,7 +75,7 @@ bib: Asia-Pacific Journal of Operational Research 2024 (to appear)
 
 ---
 id: linear-system
-show: []
+show: [d]
 title: Solving systems of linear equations through zero forcing sets
 authors: [Jianbo Wang, Chao Xu, Siyun Zhou]
 type: conference
