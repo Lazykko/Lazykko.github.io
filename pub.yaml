@@ -61,6 +61,14 @@ type: journal
 year: 2018
 pub: Neural Processing Letters
 paperlink: https://link.springer.com/article/10.1007/s11063-017-9654-y
+---
+id: 4
+show: [d]
+title: An orthonormalization-free and inversion-free algorithm for online estimation of principal eigenspace
+authors: [Siyun Zhou, Liwei Xu]
+type: journal
+year: 2024
+pub: Asia-Pacific Journal of Operational Research
 
 # conference publications
 
@@ -72,8 +80,24 @@ authors: [Jianbo Wang, Chao Xu, Siyun Zhou]
 type: conference
 year: 2023
 pub: COCOON
-bib: COCOON 2023 (to appear)
+bib: COCOON 2023
 
+---
+id: m3
+show: []
+title: Boosting local feature representation via sigmoid function for few-shot classification
+authors: [Qijun Song, Siyun Zhou]
+type: manuscript
+year: 2024
+bib: Submitted 2024
+---
+id: m2
+show: []
+title: Streaming first-order optimization methods with momentum for dominant eigenspace estimation
+authors: [Siyun Zhou]
+type: manuscript
+year: 2023
+bib: Submitted 2023
 ---
 id: m1
 show: [d]
@@ -83,11 +107,6 @@ type: manuscript
 year: 2023
 bib: Submitted 2023
 paperlink: https://arxiv.org/pdf/2305.08721.pdf
----
-id: m2
-show: []
-title: Streaming first-order optimization methods with momentum for dominant eigenspace estimation
-authors: [Siyun Zhou]
-type: manuscript
-year: 2023
-bib: Submitted 2023
+
+
+
