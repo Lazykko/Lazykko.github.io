@@ -109,7 +109,7 @@ root = template.render(pub_types=parsed, intro=intro)
 #    file.write(root)
 
 soup = bs(root,'html.parser') 
-shutil.copyfile('new_logo.png','logo.png')
+shutil.copyfile('new_logo.ico','logo.ico')
 with open('index.html', 'w', encoding="utf-8") as file:
     file.write(str(soup))
 
