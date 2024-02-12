@@ -104,14 +104,14 @@ root = template.render(pub_types=parsed, intro=intro)
 #print("\n".join(filtered).encode('utf8'))
 #sys.stdout.buffer.write("\n".join(filtered).encode('utf8'))
 
-#output_file = 'index.html'
-#with open(output_file, 'w') as file:
-#    file.write(root)
+output_file = 'index.html'
+with open(output_file, 'w') as file:
+    file.write(root)
 
-soup = bs(root,'html.parser') 
-shutil.copyfile('new_logo.ico','logo.ico')
-with open('index.html', 'w', encoding="utf-8") as file:
-    file.write(str(soup))
+#soup = bs(root,'html.parser') 
+#shutil.copyfile('new_logo.ico','logo.ico')
+#with open('index.html', 'w', encoding="utf-8") as file:
+#    file.write(str(soup))
 
                #make BeautifulSoup
 #prettyHTML = soup.prettify()
