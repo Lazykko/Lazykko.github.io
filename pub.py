@@ -9,6 +9,7 @@ import io
 mk = mistune.Markdown(parse_block_html=True)
 from bs4 import BeautifulSoup as bs
 import cgi
+import shutil
 
 def compose(*functions):
     return functools.reduce(lambda f, g: lambda x: f(g(x)), functions, lambda x: x)
@@ -98,10 +99,21 @@ file.close()
 # print parsed
 file = io.open("index_template.html", "r", encoding="utf-8") 
 template = Template(file.read())
-root = template.render(pub_types=parsed, intro=intro).splitlines()
-filtered = list(filter(lambda x: not re.match(r'^\s*$', x), root))
+root = template.render(pub_types=parsed, intro=intro)
+#filtered = list(filter(lambda x: not re.match(r'^\s*$', x), root))
 #print("\n".join(filtered).encode('utf8'))
-sys.stdout.buffer.write("\n".join(filtered).encode('utf8'))
-#soup = bs(root)                #make BeautifulSoup
+#sys.stdout.buffer.write("\n".join(filtered).encode('utf8'))
+
+#output_file = 'index.html'
+#with open(output_file, 'w') as file:
+#    file.write(root)
+
+soup = bs(root,'html.parser') 
+shutil.copyfile('new_logo.png','logo.png')
+with open('index.html', 'w', encoding="utf-8") as file:
+    file.write(str(soup))
+
+               #make BeautifulSoup
 #prettyHTML = soup.prettify()
 #print(prettyHTML.encode("utf-8"))
+
