@@ -70,6 +70,17 @@ type: journal
 year: 2024
 pub: Asia-Pacific Journal of Operational Research
 bib: Asia-Pacific Journal of Operational Research 2024 (to appear)
+---
+id: m1
+show: []
+title: Learning more discriminative local descriptors for few-shot learning 
+authors: [Qijun Song, Siyun Zhou, Die Chen]
+type: journal
+year: 2024
+pub: Machine Vision and Applications
+bib: Machine Vision and Applications 2024 (to appear)
+paperlink: https://arxiv.org/pdf/2305.08721.pdf
+
 
 # conference publications
 
@@ -99,15 +110,7 @@ authors: [Siyun Zhou]
 type: manuscript
 year: 2023
 bib: Submitted 2023
----
-id: m1
-show: [d]
-title: Learning more discriminative local descriptors for few-shot learning 
-authors: [Qijun Song, Siyun Zhou, Liwei Xu]
-type: manuscript
-year: 2023
-bib: Submitted 2023
-paperlink: https://arxiv.org/pdf/2305.08721.pdf
+
 
 
 
