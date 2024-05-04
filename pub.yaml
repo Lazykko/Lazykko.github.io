@@ -63,16 +63,17 @@ pub: Neural Processing Letters
 paperlink: https://link.springer.com/article/10.1007/s11063-017-9654-y
 ---
 id: 4
-show: []
+show: [d]
 title: An orthonormalization-free and inversion-free algorithm for online estimation of principal eigenspace
 authors: [Siyun Zhou, Liwei Xu]
 type: journal
 year: 2024
 pub: Asia-Pacific Journal of Operational Research
 bib: Asia-Pacific Journal of Operational Research 2024 (to appear)
+paperlink: https://www.worldscientific.com/doi/abs/10.1142/S0217595924500015
 ---
 id: m1
-show: []
+show: [d]
 title: Learning more discriminative local descriptors for few-shot learning 
 authors: [Qijun Song, Siyun Zhou, Die Chen]
 type: journal
