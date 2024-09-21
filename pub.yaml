@@ -34,6 +34,26 @@ types:
 
 # journal publications
 
+
+---
+id: 5
+show: [d]
+title: Streaming first-order optimization methods with momentum for dominant eigenspace estimation
+authors: [Siyun Zhou]
+type: journal
+year: 2024
+pub: Numerical Linear Algebra with Applications
+bib: Numerical Linear Algebra with Applications 2024 (to appear)
+paperlink: https://www.worldscientific.com/doi/abs/10.1142/S0217595924500015
+---
+id: 4
+show: [d]
+title: An orthonormalization-free and inversion-free algorithm for online estimation of principal eigenspace
+authors: [Siyun Zhou, Liwei Xu]
+type: journal
+year: 2024
+pub: Asia-Pacific Journal of Operational Research
+paperlink: https://www.worldscientific.com/doi/abs/10.1142/S0217595924500015
 ---
 id: 1
 show: [d]
@@ -53,6 +73,15 @@ year: 2021
 pub: Science China Mathematics
 paperlink: https://link.springer.com/article/10.1007/s11425-018-9554-4
 ---
+id: m1
+show: [d]
+title: Learning more discriminative local descriptors with parameter-free weighted attention for few-shot learning 
+authors: [Qijun Song, Siyun Zhou, Die Chen]
+type: journal
+year: 2024
+pub: Machine Vision and Applications
+paperlink: https://link.springer.com/article/10.1007/s00138-024-01551-1
+---
 id: 3
 show: [d]
 title: Document classification via nonlinear metric learning
@@ -61,26 +90,7 @@ type: journal
 year: 2018
 pub: Neural Processing Letters
 paperlink: https://link.springer.com/article/10.1007/s11063-017-9654-y
----
-id: 4
-show: [d]
-title: An orthonormalization-free and inversion-free algorithm for online estimation of principal eigenspace
-authors: [Siyun Zhou, Liwei Xu]
-type: journal
-year: 2024
-pub: Asia-Pacific Journal of Operational Research
-bib: Asia-Pacific Journal of Operational Research 2024 (to appear)
-paperlink: https://www.worldscientific.com/doi/abs/10.1142/S0217595924500015
----
-id: m1
-show: [d]
-title: Learning more discriminative local descriptors for few-shot learning 
-authors: [Qijun Song, Siyun Zhou, Die Chen]
-type: journal
-year: 2024
-pub: Machine Vision and Applications
-bib: Machine Vision and Applications 2024 (to appear)
-paperlink: https://arxiv.org/pdf/2305.08721.pdf
+
 
 
 # conference publications
@@ -103,14 +113,6 @@ authors: [Qijun Song, Siyun Zhou]
 type: manuscript
 year: 2024
 bib: Submitted 2024
----
-id: m2
-show: []
-title: Streaming first-order optimization methods with momentum for dominant eigenspace estimation
-authors: [Siyun Zhou]
-type: manuscript
-year: 2023
-bib: Submitted 2023
 
 
 
